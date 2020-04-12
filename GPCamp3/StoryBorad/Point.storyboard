@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,22 +10,156 @@
         <!--ポイント-->
         <scene sceneID="3B1-tj-kDN">
             <objects>
-                <viewController storyboardIdentifier="Point" useStoryboardIdentifierAsRestorationIdentifier="YES" id="02P-yN-zvK" customClass="PointViewController" customModule="GPCamp3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Point" useStoryboardIdentifierAsRestorationIdentifier="YES" id="02P-yN-zvK" customClass="PointViewController" customModule="GPCamp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N1H-n1-mxD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jhH-ri-TOu">
+                                <rect key="frame" x="0.0" y="62.5" width="414" height="771"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzc-XU-eM0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="429"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back3" translatesAutoresizingMaskIntoConstraints="NO" id="HwV-X9-NA1">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="393"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="393" id="NTH-Wt-ZgH"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNM-HY-kCS">
+                                                <rect key="frame" x="132" y="175.5" width="150.5" height="78"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="現在のポイント" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ev5-8v-nZO">
+                                                <rect key="frame" x="146.5" y="133" width="121.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5p5-iC-HkQ">
+                                                <rect key="frame" x="66" y="401" width="282" height="20.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ポイント利用日：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMo-u9-qky">
+                                                        <rect key="frame" x="0.0" y="0.0" width="139" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000年00月00日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psI-hf-cw1">
+                                                        <rect key="frame" x="147" y="0.0" width="135" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="429" id="KYx-AQ-GJr"/>
+                                            <constraint firstItem="5p5-iC-HkQ" firstAttribute="top" secondItem="HwV-X9-NA1" secondAttribute="bottom" constant="8" id="MNc-dK-Yfy"/>
+                                            <constraint firstItem="TNM-HY-kCS" firstAttribute="centerX" secondItem="qzc-XU-eM0" secondAttribute="centerX" id="P8A-8G-hAx"/>
+                                            <constraint firstItem="TNM-HY-kCS" firstAttribute="centerY" secondItem="qzc-XU-eM0" secondAttribute="centerY" id="Vbq-DN-MyV"/>
+                                            <constraint firstItem="HwV-X9-NA1" firstAttribute="centerX" secondItem="Ev5-8v-nZO" secondAttribute="centerX" id="VsB-yI-seQ"/>
+                                            <constraint firstItem="HwV-X9-NA1" firstAttribute="leading" secondItem="qzc-XU-eM0" secondAttribute="leading" id="eUh-Xa-O1D"/>
+                                            <constraint firstItem="HwV-X9-NA1" firstAttribute="centerX" secondItem="TNM-HY-kCS" secondAttribute="centerX" id="lVJ-wT-vCZ"/>
+                                            <constraint firstItem="TNM-HY-kCS" firstAttribute="top" secondItem="Ev5-8v-nZO" secondAttribute="bottom" constant="22" id="nYu-hZ-71A"/>
+                                            <constraint firstItem="5p5-iC-HkQ" firstAttribute="centerX" secondItem="qzc-XU-eM0" secondAttribute="centerX" id="oYh-9E-L57"/>
+                                            <constraint firstItem="HwV-X9-NA1" firstAttribute="top" secondItem="qzc-XU-eM0" secondAttribute="top" id="wzZ-g7-03m"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8xz-m9-hbg">
+                                        <rect key="frame" x="0.0" y="437" width="414" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQI-0K-inR">
+                                                <rect key="frame" x="100.5" y="1" width="213" height="48"/>
+                                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="ポイントを使う">
+                                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="UsePoint:" destination="02P-yN-zvK" eventType="touchUpInside" id="Ciy-VS-KET"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="414" id="3Pi-2O-wI8"/>
+                                            <constraint firstAttribute="height" constant="50" id="RTJ-7f-wPe"/>
+                                            <constraint firstItem="cQI-0K-inR" firstAttribute="centerX" secondItem="8xz-m9-hbg" secondAttribute="centerX" id="b6k-dC-tXS"/>
+                                            <constraint firstItem="cQI-0K-inR" firstAttribute="centerY" secondItem="8xz-m9-hbg" secondAttribute="centerY" id="wtq-08-sfT"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cjz-Rt-zXJ">
+                                        <rect key="frame" x="0.0" y="495" width="414" height="276"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="f8p-UG-dLs">
+                                                <rect key="frame" x="16.5" y="75.5" width="381.5" height="125.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="表示されたクーポン券を必ず提示してください。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82A-0Y-Men">
+                                                        <rect key="frame" x="0.0" y="0.0" width="381.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="３ポイントで「美肌の湯」の料金１００円引き！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wus-eb-kFQ">
+                                                        <rect key="frame" x="0.0" y="52.5" width="381.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="連泊の方は３泊目から再獲得可能です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlH-uI-o6e">
+                                                        <rect key="frame" x="0.0" y="105" width="381.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="276" id="3WD-9N-kPL"/>
+                                            <constraint firstItem="f8p-UG-dLs" firstAttribute="centerX" secondItem="Cjz-Rt-zXJ" secondAttribute="centerX" id="U0f-O7-SoS"/>
+                                            <constraint firstItem="f8p-UG-dLs" firstAttribute="centerY" secondItem="Cjz-Rt-zXJ" secondAttribute="centerY" id="Ywf-Hl-VLS"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jhH-ri-TOu" firstAttribute="centerY" secondItem="N1H-n1-mxD" secondAttribute="centerY" id="17C-mC-hp3"/>
+                            <constraint firstItem="jhH-ri-TOu" firstAttribute="centerX" secondItem="N1H-n1-mxD" secondAttribute="centerX" id="jhl-NN-Q5z"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hpW-4t-60b"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="ポイント" image="p.circle" catalog="system" id="cd3-Jc-O7K"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="label" destination="Ev5-8v-nZO" id="vVr-3t-WCM"/>
+                        <outlet property="label2" destination="VMo-u9-qky" id="Dnu-Oc-lKK"/>
+                        <outlet property="lastUseLabel" destination="psI-hf-cw1" id="iT2-Yd-Z6y"/>
+                        <outlet property="pointLabel" destination="TNM-HY-kCS" id="ti4-Ze-Ku7"/>
+                        <outlet property="useButton" destination="cQI-0K-inR" id="cZn-5W-Wfb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UjP-QV-fa4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-41" y="102"/>
+            <point key="canvasLocation" x="-42.028985507246382" y="101.78571428571428"/>
         </scene>
     </scenes>
     <resources>
-        <image name="p.circle" catalog="system" width="64" height="60"/>
+        <image name="back3" width="1967" height="1925"/>
+        <image name="p.circle" catalog="system" width="128" height="121"/>
     </resources>
 </document>

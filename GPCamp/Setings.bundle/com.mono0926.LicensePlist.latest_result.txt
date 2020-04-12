@@ -1,0 +1,117 @@
+name: Alamofire, nameSpecified: 
+body: Copyright (c) 2014-2…
+version: 
+
+name: DynamicBlurView, nameSpecified: 
+body: The MIT License (MIT…
+version: 4.0.0
+
+name: Firebase, nameSpecified: 
+body: 
+                   …
+version: 6.15.0
+
+name: FirebaseAnalyticsInterop, nameSpecified: 
+body: 
+                   …
+version: 1.5.0
+
+name: FirebaseCore, nameSpecified: 
+body: 
+                   …
+version: 6.6.0
+
+name: FirebaseCoreDiagnostics, nameSpecified: 
+body: 
+                   …
+version: 1.2.0
+
+name: FirebaseCoreDiagnosticsInterop, nameSpecified: 
+body: 
+                   …
+version: 1.2.0
+
+name: FirebaseInstallations, nameSpecified: 
+body: 
+                   …
+version: 1.1.0
+
+name: FirebaseInstanceID, nameSpecified: 
+body: 
+                   …
+version: 4.3.0
+
+name: FirebaseMessaging, nameSpecified: 
+body: 
+                   …
+version: 4.2.0
+
+name: FSPagerView, nameSpecified: 
+body: Copyright (c) 2017 F…
+version: 0.8.3
+
+name: GoogleDataTransport, nameSpecified: 
+body: 
+                   …
+version: 3.3.0
+
+name: GoogleDataTransportCCTSupport, nameSpecified: 
+body: 
+                   …
+version: 1.3.0
+
+name: GoogleUtilities, nameSpecified: 
+body: 
+                   …
+version: 6.5.0
+
+name: Hero, nameSpecified: 
+body: The MIT License (MIT…
+version: 1.5.0
+
+name: LicensePlist, nameSpecified: 
+body: MIT License
+
+Copyrig…
+version: 2.12.0
+
+name: nanopb, nameSpecified: 
+body: Copyright (c) 2011 P…
+version: 0.3.9011
+
+name: PopupDialog, nameSpecified: 
+body: Copyright (c) 2016 O…
+version: 1.1.1
+
+name: PromisesObjC, nameSpecified: 
+body: 
+                   …
+version: 1.2.8
+
+name: Protobuf, nameSpecified: 
+body: Copyright 2008 Googl…
+version: 3.11.2
+
+name: RAMAnimatedTabBarController, nameSpecified: 
+body: The MIT License (MIT…
+version: 5.1.0
+
+name: Realm, nameSpecified: 
+body: TABLE OF CONTENTS
+
+1…
+version: 4.3.1
+
+name: RealmSwift, nameSpecified: 
+body: TABLE OF CONTENTS
+
+1…
+version: 4.3.1
+
+name: SwiftyJSON, nameSpecified: 
+body: The MIT License (MIT…
+version: 5.0.0
+
+add-version-numbers: false
+
+LicensePlist Version: 2.12.0

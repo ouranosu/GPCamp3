@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,19 +10,20 @@
         <!--マップ-->
         <scene sceneID="fVE-IC-BIa">
             <objects>
-                <viewController storyboardIdentifier="Map" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dKf-Ot-Zjh" customClass="MapViewController" customModule="GPCamp3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Map" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dKf-Ot-Zjh" customClass="MapViewController" customModule="GPCamp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fDU-U5-jmW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0MK-UY-fBq">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0MK-UY-fBq">
                                 <rect key="frame" x="0.0" y="44" width="414" height="395"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BZv-Sc-M2f">
-                                <rect key="frame" x="0.0" y="447" width="414" height="366"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BZv-Sc-M2f">
+                                <rect key="frame" x="0.0" y="494" width="414" height="319"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="319" id="g17-E4-fMM"/>
+                                </constraints>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MapTableCell" rowHeight="70" id="7qH-Ha-0vH">
@@ -33,7 +34,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZa-EG-4YP">
-                                                    <rect key="frame" x="16" y="11" width="0.0" height="48"/>
+                                                    <rect key="frame" x="20" y="11" width="374" height="48"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -53,8 +54,29 @@
                                     <outlet property="delegate" destination="dKf-Ot-Zjh" id="krC-8N-Wlv"/>
                                 </connections>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="行きたい場所を選ぶと赤く表示されます" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCa-k5-gCB">
+                                <rect key="frame" x="20" y="447" width="374" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="hTi-Z5-OwM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mCa-k5-gCB" firstAttribute="top" secondItem="0MK-UY-fBq" secondAttribute="bottom" constant="8" id="DGq-i4-6Cx"/>
+                            <constraint firstItem="0MK-UY-fBq" firstAttribute="leading" secondItem="BZv-Sc-M2f" secondAttribute="leading" id="EZh-Xb-DZd"/>
+                            <constraint firstItem="BZv-Sc-M2f" firstAttribute="top" secondItem="mCa-k5-gCB" secondAttribute="bottom" constant="8" id="Hgh-zk-c3w"/>
+                            <constraint firstItem="mCa-k5-gCB" firstAttribute="leading" secondItem="fDU-U5-jmW" secondAttribute="leadingMargin" id="Jjv-DM-J24"/>
+                            <constraint firstItem="0MK-UY-fBq" firstAttribute="top" secondItem="wOd-I5-S6J" secondAttribute="top" id="LFM-Hv-wqW"/>
+                            <constraint firstItem="BZv-Sc-M2f" firstAttribute="bottom" secondItem="wOd-I5-S6J" secondAttribute="bottom" id="P3u-e3-MB1"/>
+                            <constraint firstItem="0MK-UY-fBq" firstAttribute="leading" secondItem="wOd-I5-S6J" secondAttribute="leading" id="gBA-oc-kkB"/>
+                            <constraint firstItem="0MK-UY-fBq" firstAttribute="trailing" secondItem="BZv-Sc-M2f" secondAttribute="trailing" id="ipH-Ug-wAq"/>
+                            <constraint firstItem="mCa-k5-gCB" firstAttribute="centerX" secondItem="BZv-Sc-M2f" secondAttribute="centerX" id="sRi-Wp-uR5"/>
+                            <constraint firstItem="mCa-k5-gCB" firstAttribute="trailing" secondItem="fDU-U5-jmW" secondAttribute="trailingMargin" id="x6z-Zr-K8S"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wOd-I5-S6J"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="マップ" image="map" catalog="system" id="q7E-qz-nbx"/>

@@ -24,7 +24,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     var coordinateList = [CLLocationCoordinate2D]()
 
     //テーブル用
-    private let FacilityList = ["フリーサイト", "オートキャンプ", "グループキャンプ", "バーベキュー台(昼の部・夜の部)", "バーベキュー台(昼の部・夜の部)", "炊事場１", "炊事場２", "トイレ１", "トイレ２", "子供が遊べる場所"]
+    private let FacilityList = ["フリーサイト", "オートキャンプ", "グループキャンプ", "バーベキュー台(昼の部・夜の部)", "バーベキュー台(日中台)", "炊事場１", "炊事場２", "トイレ１", "トイレ２", "ドラゴンスライダー"]
     private let CellId = "mapTableCell"
     
     override func viewDidLoad() {
@@ -138,11 +138,11 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         let renderer: MKOverlayPathRenderer
         renderer = MKPolygonRenderer(overlay: overlay)
         
-        //図形の色をランダム生成
+        //図形の色を生成
         renderer.fillColor = UIColor(red: 255/255,
                                      green: 80/255,
                                      blue: 80/255,
-                                     alpha: 0.7
+                                     alpha: 0.9
         )
         return renderer
     }

@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08B5BF1EC442C877B96E0216 /* Pods_GPCamp3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDCFEA3DC8BD55207A84CA8 /* Pods_GPCamp3.framework */; };
+		39D69949BA8E5F9FC33A66FE /* Pods_GPCamp3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA44BACEA3677294D626918 /* Pods_GPCamp3.framework */; };
+		961346E023D94C3C0031C696 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 961346DF23D94C3C0031C696 /* Settings.bundle */; };
+		963A5E352410C175005FDB2E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A5E342410C175005FDB2E /* AuthViewController.swift */; };
+		9650A0BF242ADFAD007CAF0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9650A0BE242ADFAD007CAF0C /* GoogleService-Info.plist */; };
+		965EAFDB23AF46C8003E797B /* PointClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965EAFDA23AF46C8003E797B /* PointClass.swift */; };
 		9665AE5023A60DBB0098DD3E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9665AE4F23A60DBB0098DD3E /* Home.storyboard */; };
 		9665AE5223A60DD70098DD3E /* Rental.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9665AE5123A60DD70098DD3E /* Rental.storyboard */; };
 		9665AE5423A60DF10098DD3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9665AE5323A60DF10098DD3E /* HomeViewController.swift */; };
 		9665AE5623A60DFE0098DD3E /* RentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9665AE5523A60DFE0098DD3E /* RentalViewController.swift */; };
+		9667BA5124147ADF0091C5DF /* HomeInfoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667BA5024147ADF0091C5DF /* HomeInfoClass.swift */; };
 		9669A1B423AC8841008A6944 /* MapSelectClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669A1B323AC8841008A6944 /* MapSelectClass.swift */; };
+		967E305A23E6B2AB00CD5770 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E305923E6B2AB00CD5770 /* QuestionViewController.swift */; };
+		967EE8892442935F00EE1E69 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EE8882442935F00EE1E69 /* LaunchScreenViewController.swift */; };
 		9681793E23A6138100F2EC11 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9681793D23A6138100F2EC11 /* Map.storyboard */; };
 		9681794023A6138900F2EC11 /* Point.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9681793F23A6138900F2EC11 /* Point.storyboard */; };
 		9681794223A613A800F2EC11 /* Config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9681794123A613A800F2EC11 /* Config.storyboard */; };
 		9681794423A613BD00F2EC11 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9681794323A613BD00F2EC11 /* MapViewController.swift */; };
 		9681794623A613C700F2EC11 /* PointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9681794523A613C700F2EC11 /* PointViewController.swift */; };
 		9681794823A613D100F2EC11 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9681794723A613D100F2EC11 /* ConfigViewController.swift */; };
+		9683847D2439968600E362FC /* Terms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9683847C2439968600E362FC /* Terms.storyboard */; };
+		9683847F243998BD00E362FC /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683847E243998BD00E362FC /* TermsViewController.swift */; };
+		969A445E240B9A95004FD67D /* InsertWeaterRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969A445D240B9A95004FD67D /* InsertWeaterRealm.swift */; };
+		969A4460240BB529004FD67D /* DateFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969A445F240BB529004FD67D /* DateFunction.swift */; };
+		96C8A809243AF583000CD7B0 /* TermsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C8A808243AF583000CD7B0 /* TermsClass.swift */; };
+		96C8A80B243B309F000CD7B0 /* PrivacyPolicyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C8A80A243B309F000CD7B0 /* PrivacyPolicyClass.swift */; };
+		96C8A80D243B3222000CD7B0 /* PrivacyPolicy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C8A80C243B3222000CD7B0 /* PrivacyPolicy.storyboard */; };
+		96C8A80F243B3249000CD7B0 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C8A80E243B3249000CD7B0 /* PrivacyPolicyViewController.swift */; };
+		96C8A811243D9690000CD7B0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C8A810243D9690000CD7B0 /* MessageUI.framework */; };
+		96D5A9AF243EEF680065A118 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A9AE243EEF680065A118 /* InfoDetailViewController.swift */; };
+		96DCB06C23BB1DEF00BB84F6 /* Feedbacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCB06B23BB1DEF00BB84F6 /* Feedbacker.swift */; };
+		96EBB26523C450AF00008F60 /* MyKeyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EBB26423C450AF00008F60 /* MyKeyClass.swift */; };
+		96EBB26723C45FE700008F60 /* WeatherClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EBB26623C45FE700008F60 /* WeatherClass.swift */; };
 		96F5D33923ADB649002E75DC /* RentalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5D33823ADB649002E75DC /* RentalDetailViewController.swift */; };
 		96FBC5CC23A60BAF003C4068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC5CB23A60BAF003C4068 /* AppDelegate.swift */; };
 		96FBC5CE23A60BAF003C4068 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBC5CD23A60BAF003C4068 /* SceneDelegate.swift */; };
@@ -28,28 +48,50 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		50A24E4807B4F2A3D7B37120 /* Pods-GPCamp3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPCamp3.release.xcconfig"; path = "Target Support Files/Pods-GPCamp3/Pods-GPCamp3.release.xcconfig"; sourceTree = "<group>"; };
-		6BDCFEA3DC8BD55207A84CA8 /* Pods_GPCamp3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPCamp3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92658F0D474E8149EEB54616 /* Pods-GPCamp3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPCamp3.debug.xcconfig"; path = "Target Support Files/Pods-GPCamp3/Pods-GPCamp3.debug.xcconfig"; sourceTree = "<group>"; };
+		62F828BF2F8C3A8B8C058F3B /* Pods-GPCamp3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPCamp3.debug.xcconfig"; path = "Target Support Files/Pods-GPCamp3/Pods-GPCamp3.debug.xcconfig"; sourceTree = "<group>"; };
+		68E7853B51741FC1D7E363A9 /* Pods-GPCamp3.mydebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPCamp3.mydebug.xcconfig"; path = "Target Support Files/Pods-GPCamp3/Pods-GPCamp3.mydebug.xcconfig"; sourceTree = "<group>"; };
+		7CA44BACEA3677294D626918 /* Pods_GPCamp3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPCamp3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961346DF23D94C3C0031C696 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		963A5E342410C175005FDB2E /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		964D485F23F12B1000C793FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9650A0BE242ADFAD007CAF0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		965EAFDA23AF46C8003E797B /* PointClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointClass.swift; sourceTree = "<group>"; };
 		9665AE4F23A60DBB0098DD3E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		9665AE5123A60DD70098DD3E /* Rental.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rental.storyboard; sourceTree = "<group>"; };
 		9665AE5323A60DF10098DD3E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9665AE5523A60DFE0098DD3E /* RentalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalViewController.swift; sourceTree = "<group>"; };
+		9667BA5024147ADF0091C5DF /* HomeInfoClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfoClass.swift; sourceTree = "<group>"; };
 		9669A1B323AC8841008A6944 /* MapSelectClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSelectClass.swift; sourceTree = "<group>"; };
+		967E305923E6B2AB00CD5770 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		967EE8882442935F00EE1E69 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		9681793D23A6138100F2EC11 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		9681793F23A6138900F2EC11 /* Point.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Point.storyboard; sourceTree = "<group>"; };
 		9681794123A613A800F2EC11 /* Config.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Config.storyboard; sourceTree = "<group>"; };
 		9681794323A613BD00F2EC11 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9681794523A613C700F2EC11 /* PointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointViewController.swift; sourceTree = "<group>"; };
 		9681794723A613D100F2EC11 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		9683847C2439968600E362FC /* Terms.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Terms.storyboard; sourceTree = "<group>"; };
+		9683847E243998BD00E362FC /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		969A445D240B9A95004FD67D /* InsertWeaterRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertWeaterRealm.swift; sourceTree = "<group>"; };
+		969A445F240BB529004FD67D /* DateFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFunction.swift; sourceTree = "<group>"; };
+		96C8A808243AF583000CD7B0 /* TermsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsClass.swift; sourceTree = "<group>"; };
+		96C8A80A243B309F000CD7B0 /* PrivacyPolicyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyClass.swift; sourceTree = "<group>"; };
+		96C8A80C243B3222000CD7B0 /* PrivacyPolicy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PrivacyPolicy.storyboard; sourceTree = "<group>"; };
+		96C8A80E243B3249000CD7B0 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		96C8A810243D9690000CD7B0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		96D5A9AE243EEF680065A118 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		96DCB06B23BB1DEF00BB84F6 /* Feedbacker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedbacker.swift; sourceTree = "<group>"; };
+		96EBB26423C450AF00008F60 /* MyKeyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKeyClass.swift; sourceTree = "<group>"; };
+		96EBB26623C45FE700008F60 /* WeatherClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClass.swift; sourceTree = "<group>"; };
+		96F02C01244174CC00A3B493 /* GPCamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPCamp.entitlements; sourceTree = "<group>"; };
 		96F5D33823ADB649002E75DC /* RentalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalDetailViewController.swift; sourceTree = "<group>"; };
-		96FBC5C823A60BAF003C4068 /* GPCamp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPCamp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FBC5C823A60BAF003C4068 /* GPCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FBC5CB23A60BAF003C4068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FBC5CD23A60BAF003C4068 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		96FBC5D423A60BB0003C4068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96FBC5D723A60BB0003C4068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96FBC5D923A60BB0003C4068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96FBC5E123A60CA6003C4068 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F21134F4DC7EC071399B396E /* Pods-GPCamp3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPCamp3.release.xcconfig"; path = "Target Support Files/Pods-GPCamp3/Pods-GPCamp3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +99,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08B5BF1EC442C877B96E0216 /* Pods_GPCamp3.framework in Frameworks */,
+				96C8A811243D9690000CD7B0 /* MessageUI.framework in Frameworks */,
+				39D69949BA8E5F9FC33A66FE /* Pods_GPCamp3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44432D2494DBF785694EF8DC /* Frameworks */ = {
+		52327626FF64DB5C3B4D468B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6BDCFEA3DC8BD55207A84CA8 /* Pods_GPCamp3.framework */,
+				96C8A810243D9690000CD7B0 /* MessageUI.framework */,
+				7CA44BACEA3677294D626918 /* Pods_GPCamp3.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +120,15 @@
 			isa = PBXGroup;
 			children = (
 				9669A1B323AC8841008A6944 /* MapSelectClass.swift */,
+				965EAFDA23AF46C8003E797B /* PointClass.swift */,
+				96DCB06B23BB1DEF00BB84F6 /* Feedbacker.swift */,
+				96EBB26423C450AF00008F60 /* MyKeyClass.swift */,
+				96EBB26623C45FE700008F60 /* WeatherClass.swift */,
+				969A445D240B9A95004FD67D /* InsertWeaterRealm.swift */,
+				969A445F240BB529004FD67D /* DateFunction.swift */,
+				9667BA5024147ADF0091C5DF /* HomeInfoClass.swift */,
+				96C8A808243AF583000CD7B0 /* TermsClass.swift */,
+				96C8A80A243B309F000CD7B0 /* PrivacyPolicyClass.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -83,17 +136,18 @@
 		96FBC5BF23A60BAE003C4068 = {
 			isa = PBXGroup;
 			children = (
+				961346DF23D94C3C0031C696 /* Settings.bundle */,
 				96FBC5CA23A60BAF003C4068 /* GPCamp3 */,
 				96FBC5C923A60BAF003C4068 /* Products */,
 				EF802CB4664FC3D74ED45BD8 /* Pods */,
-				44432D2494DBF785694EF8DC /* Frameworks */,
+				52327626FF64DB5C3B4D468B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		96FBC5C923A60BAF003C4068 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96FBC5C823A60BAF003C4068 /* GPCamp3.app */,
+				96FBC5C823A60BAF003C4068 /* GPCamp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +155,7 @@
 		96FBC5CA23A60BAF003C4068 /* GPCamp3 */ = {
 			isa = PBXGroup;
 			children = (
+				96F02C01244174CC00A3B493 /* GPCamp.entitlements */,
 				96FBC5CB23A60BAF003C4068 /* AppDelegate.swift */,
 				96FBC5E023A60C0A003C4068 /* StoryBorad */,
 				96FBC5DF23A60BFE003C4068 /* Controller */,
@@ -108,6 +163,7 @@
 				96FBC5CD23A60BAF003C4068 /* SceneDelegate.swift */,
 				96FBC5D423A60BB0003C4068 /* Assets.xcassets */,
 				96FBC5D623A60BB0003C4068 /* LaunchScreen.storyboard */,
+				9650A0BE242ADFAD007CAF0C /* GoogleService-Info.plist */,
 				96FBC5D923A60BB0003C4068 /* Info.plist */,
 			);
 			path = GPCamp3;
@@ -116,12 +172,18 @@
 		96FBC5DF23A60BFE003C4068 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				963A5E342410C175005FDB2E /* AuthViewController.swift */,
 				9665AE5323A60DF10098DD3E /* HomeViewController.swift */,
+				96D5A9AE243EEF680065A118 /* InfoDetailViewController.swift */,
+				967E305923E6B2AB00CD5770 /* QuestionViewController.swift */,
 				9665AE5523A60DFE0098DD3E /* RentalViewController.swift */,
 				96F5D33823ADB649002E75DC /* RentalDetailViewController.swift */,
 				9681794323A613BD00F2EC11 /* MapViewController.swift */,
 				9681794523A613C700F2EC11 /* PointViewController.swift */,
 				9681794723A613D100F2EC11 /* ConfigViewController.swift */,
+				9683847E243998BD00E362FC /* TermsViewController.swift */,
+				96C8A80E243B3249000CD7B0 /* PrivacyPolicyViewController.swift */,
+				967EE8882442935F00EE1E69 /* LaunchScreenViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -135,6 +197,8 @@
 				9681793D23A6138100F2EC11 /* Map.storyboard */,
 				9681793F23A6138900F2EC11 /* Point.storyboard */,
 				9681794123A613A800F2EC11 /* Config.storyboard */,
+				9683847C2439968600E362FC /* Terms.storyboard */,
+				96C8A80C243B3222000CD7B0 /* PrivacyPolicy.storyboard */,
 			);
 			path = StoryBorad;
 			sourceTree = "<group>";
@@ -142,8 +206,9 @@
 		EF802CB4664FC3D74ED45BD8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				92658F0D474E8149EEB54616 /* Pods-GPCamp3.debug.xcconfig */,
-				50A24E4807B4F2A3D7B37120 /* Pods-GPCamp3.release.xcconfig */,
+				62F828BF2F8C3A8B8C058F3B /* Pods-GPCamp3.debug.xcconfig */,
+				68E7853B51741FC1D7E363A9 /* Pods-GPCamp3.mydebug.xcconfig */,
+				F21134F4DC7EC071399B396E /* Pods-GPCamp3.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,11 +220,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96FBC5DC23A60BB0003C4068 /* Build configuration list for PBXNativeTarget "GPCamp3" */;
 			buildPhases = (
-				575F2DA35ECB01A94F0F44CF /* [CP] Check Pods Manifest.lock */,
+				857756804EF4A403AC49998E /* [CP] Check Pods Manifest.lock */,
 				96FBC5C423A60BAF003C4068 /* Sources */,
 				96FBC5C523A60BAF003C4068 /* Frameworks */,
 				96FBC5C623A60BAF003C4068 /* Resources */,
-				9CB601FB04A62620D0072CE2 /* [CP] Embed Pods Frameworks */,
+				961346DE23D93AC60031C696 /* License Plist */,
+				1CB183EC6A68C240F4905C1B /* [CP] Embed Pods Frameworks */,
+				133C5DDECA80CD64D28CBBF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,7 +234,7 @@
 			);
 			name = GPCamp3;
 			productName = GPCamp3;
-			productReference = 96FBC5C823A60BAF003C4068 /* GPCamp3.app */;
+			productReference = 96FBC5C823A60BAF003C4068 /* GPCamp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,10 +277,14 @@
 			files = (
 				96FBC5E223A60CA6003C4068 /* Main.storyboard in Resources */,
 				9681794023A6138900F2EC11 /* Point.storyboard in Resources */,
+				961346E023D94C3C0031C696 /* Settings.bundle in Resources */,
 				96FBC5D823A60BB0003C4068 /* LaunchScreen.storyboard in Resources */,
+				9683847D2439968600E362FC /* Terms.storyboard in Resources */,
+				96C8A80D243B3222000CD7B0 /* PrivacyPolicy.storyboard in Resources */,
 				96FBC5D523A60BB0003C4068 /* Assets.xcassets in Resources */,
 				9665AE5023A60DBB0098DD3E /* Home.storyboard in Resources */,
 				9665AE5223A60DD70098DD3E /* Rental.storyboard in Resources */,
+				9650A0BF242ADFAD007CAF0C /* GoogleService-Info.plist in Resources */,
 				9681794223A613A800F2EC11 /* Config.storyboard in Resources */,
 				9681793E23A6138100F2EC11 /* Map.storyboard in Resources */,
 			);
@@ -222,7 +293,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		575F2DA35ECB01A94F0F44CF /* [CP] Check Pods Manifest.lock */ = {
+		133C5DDECA80CD64D28CBBF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB183EC6A68C240F4905C1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		857756804EF4A403AC49998E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,22 +349,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CB601FB04A62620D0072CE2 /* [CP] Embed Pods Frameworks */ = {
+		961346DE23D93AC60031C696 /* License Plist */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+			);
+			name = "License Plist";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPCamp3/Pods-GPCamp3-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "if [ $CONFIGURATION = \"Debug\" ]; then\n${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle --github-token YOUR_GITHUB_TOKEN\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -268,13 +374,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				969A445E240B9A95004FD67D /* InsertWeaterRealm.swift in Sources */,
+				96C8A80F243B3249000CD7B0 /* PrivacyPolicyViewController.swift in Sources */,
+				96DCB06C23BB1DEF00BB84F6 /* Feedbacker.swift in Sources */,
 				96F5D33923ADB649002E75DC /* RentalDetailViewController.swift in Sources */,
 				96FBC5CC23A60BAF003C4068 /* AppDelegate.swift in Sources */,
+				96C8A809243AF583000CD7B0 /* TermsClass.swift in Sources */,
 				96FBC5CE23A60BAF003C4068 /* SceneDelegate.swift in Sources */,
+				96EBB26723C45FE700008F60 /* WeatherClass.swift in Sources */,
 				9665AE5623A60DFE0098DD3E /* RentalViewController.swift in Sources */,
+				96C8A80B243B309F000CD7B0 /* PrivacyPolicyClass.swift in Sources */,
+				967EE8892442935F00EE1E69 /* LaunchScreenViewController.swift in Sources */,
 				9669A1B423AC8841008A6944 /* MapSelectClass.swift in Sources */,
+				965EAFDB23AF46C8003E797B /* PointClass.swift in Sources */,
+				96D5A9AF243EEF680065A118 /* InfoDetailViewController.swift in Sources */,
 				9681794623A613C700F2EC11 /* PointViewController.swift in Sources */,
+				9683847F243998BD00E362FC /* TermsViewController.swift in Sources */,
+				969A4460240BB529004FD67D /* DateFunction.swift in Sources */,
+				96EBB26523C450AF00008F60 /* MyKeyClass.swift in Sources */,
+				967E305A23E6B2AB00CD5770 /* QuestionViewController.swift in Sources */,
 				9681794823A613D100F2EC11 /* ConfigViewController.swift in Sources */,
+				963A5E352410C175005FDB2E /* AuthViewController.swift in Sources */,
+				9667BA5124147ADF0091C5DF /* HomeInfoClass.swift in Sources */,
 				9681794423A613BD00F2EC11 /* MapViewController.swift in Sources */,
 				9665AE5423A60DF10098DD3E /* HomeViewController.swift in Sources */,
 			);
@@ -286,7 +407,7 @@
 		96FBC5D623A60BB0003C4068 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96FBC5D723A60BB0003C4068 /* Base */,
+				964D485F23F12B1000C793FB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -294,9 +415,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		96FBC5DA23A60BB0003C4068 /* Debug */ = {
+		961C0FCD23D98073001B1326 /* MyDebug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -332,7 +454,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -344,7 +466,99 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = MyDebug;
+		};
+		961C0FCE23D98073001B1326 /* MyDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E7853B51741FC1D7E363A9 /* Pods-GPCamp3.mydebug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GPCamp3/GPCamp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99Z6MBRC76;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MYDEBUG=1",
+					"COCOAPODS=1",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+				);
+				INFOPLIST_FILE = GPCamp3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okstore.GPCamp3;
+				PRODUCT_NAME = GPCamp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = MyDebug;
+		};
+		96FBC5DA23A60BB0003C4068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -357,6 +571,7 @@
 		96FBC5DB23A60BB0003C4068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -391,14 +606,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -410,18 +625,22 @@
 		};
 		96FBC5DD23A60BB0003C4068 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92658F0D474E8149EEB54616 /* Pods-GPCamp3.debug.xcconfig */;
+			baseConfigurationReference = 62F828BF2F8C3A8B8C058F3B /* Pods-GPCamp3.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GPCamp3/GPCamp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99Z6MBRC76;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = GPCamp3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.okstore.GPCamp3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GPCamp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,18 +648,22 @@
 		};
 		96FBC5DE23A60BB0003C4068 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A24E4807B4F2A3D7B37120 /* Pods-GPCamp3.release.xcconfig */;
+			baseConfigurationReference = F21134F4DC7EC071399B396E /* Pods-GPCamp3.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GPCamp3/GPCamp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99Z6MBRC76;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = GPCamp3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.okstore.GPCamp3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GPCamp;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,6 +676,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96FBC5DA23A60BB0003C4068 /* Debug */,
+				961C0FCD23D98073001B1326 /* MyDebug */,
 				96FBC5DB23A60BB0003C4068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -462,6 +686,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96FBC5DD23A60BB0003C4068 /* Debug */,
+				961C0FCE23D98073001B1326 /* MyDebug */,
 				96FBC5DE23A60BB0003C4068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

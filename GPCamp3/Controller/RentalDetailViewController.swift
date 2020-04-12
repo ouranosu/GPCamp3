@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Hero
 
 class RentalDetailViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
@@ -23,11 +22,6 @@ class RentalDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView.hero.id = "RentalImage"
-        nameLabel.hero.id = "RentalName"
-        priceLabel.hero.id = "RentalPrice"
-        detailLabel.hero.id = "RentalDetail"
-        
         imageView.image = self.image
         nameLabel.text = self.name
         priceLabel.text = self.price
@@ -35,8 +29,9 @@ class RentalDetailViewController: UIViewController {
         self.overrideUserInterfaceStyle = .light
     }
     
-    
-    @IBAction func dismiss(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        presentingViewController?.beginAppearanceTransition(true, animated: animated)
+        presentingViewController?.endAppearanceTransition()
     }
 }
